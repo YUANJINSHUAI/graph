@@ -13,4 +13,4 @@
 
 ## Ouput Example 
 
- ![屏幕快照 2019-08-10 上午10.54.37](/Users/yuanjinshuai/Desktop/屏幕快照 2019-08-10 上午10.54.37.png)
+/Users/yuanjinshuai/Desktop/屏幕快照 2019-08-10 上午10.54.37.png
