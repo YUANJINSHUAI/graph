@@ -10,7 +10,7 @@
   <style type="text/css">
     #mynetwork {
       width: 1024px;
-      height: 468px;
+      height: 1294px;
       border: 1px solid lightgray;
     }
   </style>
@@ -86,7 +86,7 @@
               width: 15606/1000,
               'type': 'flow',
               from: '江苏',
-              to: '上海',arrows:'to',length:500},
+              to: '上海',arrows:'to',length:300},
             {'label': '657094人',
               width: 6570/1000,
               'type': 'flow',
@@ -96,12 +96,12 @@
               width: 509/1000,
               'type': 'flow',
               from: '上海',
-              to: '江苏', arrows:'to',length:500},
+              to: '江苏', arrows:'to',length:300},
             {'label': '48071人',
               width: 480/1000,
               'type': 'flow',
               from: '上海',
-              to: '浙江', arrows:'to',length:500},
+              to: '浙江', arrows:'to',length:300},
             {'label': '228503人',
               width: 2285/1000,
               'type': 'flow',
@@ -111,7 +111,7 @@
               width: 4658/1000,
               'type': 'flow',
               from: '浙江',
-              to: '上海',arrows:'to', length:500},
+              to: '上海',arrows:'to', length:300},
             {width: 10, 'type': 'reason', from: '江苏_务工/工作', to: '江苏'},
             {width: 10, 'type': 'reason', from: '江苏_家属随迁', to: '江苏'},
             {width: 10, 'type': 'reason', from: '江苏_经商', to: '江苏'},
@@ -147,6 +147,9 @@
   };
   var options = {};
   var network = new vis.Network(container, data, options);
+  var sourceCanvas = document.querySelector('canvas');
+  sourceCanvas.style.backgroundImage = "url('../images/chang_san_jiao_map.png')";
+  sourceCanvas.style.backgroundSize = "1024px 1294px"
 </script>
 
 

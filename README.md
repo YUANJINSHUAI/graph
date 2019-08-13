@@ -9,8 +9,8 @@
 
 ## Running the html 
 
-* running the arrows.html by web browser 
+* running the arrows.html in demo2 by web browser 
 
 ## Ouput Example 
 
- ![](./output_example.png)
+ ![](./image/output_example.png)
